@@ -1,7 +1,7 @@
 import mqtt from 'mqtt'
 
 const TOPIC = process.env.TOPIC || 'topic'
-const ADDRESS = process.env.ADDRESS || 'mqtt://localhost:1883'
+const ADDRESS = process.env.ADDRESS || 'ws://localhost:1883'
 
 const client = mqtt.connect(ADDRESS)
 

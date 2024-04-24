@@ -20,5 +20,5 @@ Default value you can change in the environment variables
 
 ```
 TOPIC="topic"
-ADDRESS="mqtt://localhost:1883"
+ADDRESS="ws://localhost:1883"
 ```
